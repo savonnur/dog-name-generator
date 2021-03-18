@@ -1,0 +1,1 @@
+A mock dog name generator website made with HTML, SASS, Node.js, and Browserify.

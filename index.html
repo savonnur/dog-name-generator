@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Dog Name Generator</title>
+</head>
+<header>
+
+  <!-- Title Section -->
+  <section id="Title">
+    <div class="header-image-container">
+      <div class="inner-container">
+        <h1>Dog Name Generator</h1>
+      </div>
+    </div>
+  </section>
+
+</header>
+<body>
+
+  <!-- Banner Section -->
+  <section id="Banner">
+    <div class="info-banner">
+      <div class="About-Us">
+        <h2>About Us</h2><br>
+        <p>So you're thinking of a name for your new canine companion, but you're having trouble coming up with just the right name? That's where we come in. We understand that picking the best name for your dog is vital for introducing it into the family. Use our dog name generator below to get some ideas for that new member of the family.</p>
+      </div>
+      <div class="info-dog">
+        <img id="banner-dog" src="./images/banner-dog.png" alt="banner-dog-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Generator Section  -->
+  <section id="Generator">
+    <div class="Dog-Generator-container">
+      <div class="inner-generator">
+        <h1>Dog Name Generator</h1>
+        <!-- <p>Tell Us About Your Dog...</p> -->
+        <h2>Male or Female?</h2>
+        <div class="Gender-buttons">
+          <button id="male-btn"><img class="male-icon" src="./images/masculine.png" height="50px" alt=""><br>Male</button>
+          <button id="female-btn"><img class="female-icon" src="./images/femenine.png" height="50px" alt=""><br>Female</button>
+        </div><br>
+        <input type="text" id="txtOutput">
+        <div id="generate_male_button">
+          <button id="generate-btn">Generate</button>
+        </div>
+        <div id="generate_female_button">
+          <button id="generate-btn2">Generate</button>
+        </div>
+        <div class="generator-dog-img">
+          <img class="dogs-generator" src="" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section  -->
+  <footer>
+    <p id="footer"></p>
+  </footer>
+  <!-- JQuery script  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Javascript Script  -->
+  <script src="./bundle.js"></script>
+</body>
+</html>
